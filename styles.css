@@ -64,14 +64,14 @@
  .gray-line{
     width: 100%;
     margin: 1rem 0;
-    border: 1px solid transparent; /* Define border width and style */
-    border-image: linear-gradient(90deg, #7B7B7B 0%, #E1E1E1 100%) 1; /* Gradient border */
+    border: 1px solid transparent; 
+    border-image: linear-gradient(90deg, #7B7B7B 0%, #E1E1E1 100%) 1; 
  }
  .gray-line2{
     width: 100%;
     margin: 1rem 0;
-    border: 1px solid transparent; /* Define border width and style */
-    border-image: linear-gradient(90deg, #E1E1E1 0%, #7B7B7B 100%) 1; /* Gradient border */
+    border: 1px solid transparent;
+    border-image: linear-gradient(90deg, #E1E1E1 0%, #7B7B7B 100%) 1; 
  }
  .nav-row{
     margin-left: 1rem;
@@ -139,7 +139,6 @@
     width: 20px;
     object-fit: contain;
     top: 5px;
-    /* margin-top: 10px; */
  }
 
 
@@ -164,14 +163,14 @@
   .carousel-track {
     display: flex;
   transition: transform 0.5s ease;
-  user-select: none; /* Prevent text selection while dragging */
-  -webkit-user-select: none; /* For Safari */
-  -ms-user-select: none; /* For Edge */
-  cursor: grab; /* Show a grab cursor */
+  user-select: none; 
+  -webkit-user-select: none; 
+  -ms-user-select: none;
+  cursor: grab; 
   width: max-content;
   }
   .carousel-track:active {
-    cursor: grabbing; /* Show grabbing cursor while dragging */
+    cursor: grabbing; 
   }
   
   .carousel-item {
@@ -204,14 +203,13 @@
     width: 128;
     height: 34;
     border-radius: 30px;
-    transition: all 0.25s ease; /* Smooth transition for hover effects */
+    transition: all 0.25s ease;
   }
   .explore-button {
     position: relative;
-    padding-right: 2rem; /* Make space for the icon */
+    padding-right: 2rem; 
   }
   
-  /* Add the plus icon as a background image on hover */
   .explore-button::after {
     content: '';
     position: absolute;
@@ -223,18 +221,18 @@
     font-weight: 800px;
     background: url('./assets/plus.svg') no-repeat center;
     background-size: contain;
-    opacity: 0; /* Hidden by default */
-    transform: translateX(-5px); /* Slight offset for animation */
-    transition: opacity 0.25s ease, transform 0.25s ease; /* Smooth transition */
+    opacity: 0; 
+    transform: translateX(-5px); 
+    transition: opacity 0.25s ease, transform 0.25s ease; 
   }
   
   .explore-button:hover::after {
-    opacity: 1; /* Show icon on hover */
-    transform: translateX(0); /* Slide into place */
+    opacity: 1; 
+    transform: translateX(0); 
   }
   
   .explore-button:hover {
-    padding-right: 2.5rem; /* Adjust padding to prevent text shifting */
+    padding-right: 2.5rem; 
   }
   
   
@@ -362,9 +360,7 @@
     .nav-col{
         height: 100%;
     }
-    /* .gray-line, .gray-line2{
-        width: 245px;
-    } */
+    
     .cart-icons{
         width: 100%;
     }
@@ -441,37 +437,36 @@
   @media (max-width: 767px) {
     .logo {
       content: url('./assets/logo-mobile.png');
-      width: 73px; /* Adjust size for mobile */
+      width: 73px; 
       height: 63px;
     }
   
-    /* Additional adjustments for mobile */
     .navbar {
-      padding: 0 1rem; /* Reduce padding for smaller screens */
+      padding: 0 1rem; 
     }
   
     .nav-col {
-      width: 100%; /* Full width for mobile */
+      width: 100%; 
     }
   
     .gray-line,
     .gray-line2 {
-      width: 100%; /* Full width for mobile */
+      width: 100%; 
     }
   
     .flex {
-      flex-direction: column-reverse; /* Keep carousel on top */
+      flex-direction: column-reverse; 
       align-items: center;
     }
   
     .hero-left-side {
-      width: 100%; /* Full width for mobile */
-      text-align: center; /* Center text for mobile */
+      width: 100%; 
+      text-align: center; 
       margin-top: 2rem;
     }
   
     .carousel-item {
-      flex: 0 0 60%; /* Full width for each carousel item */
+      flex: 0 0 60%; 
     }
   
     .carousel-item img {
@@ -479,7 +474,7 @@
     }
   
     .bigger-items {
-      width: 300px; /* Adjust size for mobile */
+      width: 300px; 
       height: 350px;
     }
     .product-name{
