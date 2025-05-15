@@ -88,6 +88,8 @@
 }
  .hover-darker:hover{
     color: #474747;
+    filter: brightness(50%); 
+    transition: filter 0.3s ease;
  }
 
  .navbar-hamburg{
